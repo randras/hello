@@ -1,0 +1,44 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../node_modules/@mdi/font/css/materialdesignicons.min.css";
+
+$lightblue: #83D8F7;
+
+.app {
+  padding-right: 0;
+  padding-left: 0;
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  background-color: $lightblue;
+}
+.badge-primary {
+  background-color: $lightblue;
+}
+
+.project {
+  margin-bottom: 3rem;
+}
+
+.jumbotron {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  .heading {
+    margin-bottom: 2rem;
+  }
+}
+
+header {
+  min-height: 100vh;
+  margin-bottom: 3rem;
+}

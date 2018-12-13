@@ -1,0 +1,33 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../../node_modules/@mdi/font/css/materialdesignicons.min.css);
+.app {
+  padding-right: 0;
+  padding-left: 0; }
+  .app .container-fluid {
+    padding-right: 0;
+    padding-left: 0; }
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.progress-bar {
+  background-color: #83D8F7; }
+
+.badge-primary {
+  background-color: #83D8F7; }
+
+.project {
+  margin-bottom: 3rem; }
+
+.jumbotron {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+  .jumbotron .heading {
+    margin-bottom: 2rem; }
+
+header {
+  min-height: 100vh;
+  margin-bottom: 3rem; }
