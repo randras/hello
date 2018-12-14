@@ -63,15 +63,6 @@ export default class Projects extends React.Component {
                          company={Dictionary.get("appello")}
                          period={Dictionary.get("ceskaPeriod")} />
 
-                <Project projectName={Dictionary.get("wdpProjectName")}
-                         role={Dictionary.get("wdpRole")}
-                         mainResponsibilities={Dictionary.get("wdpMainResponsibilities")}
-                         description={Dictionary.get("wdpDescription")}
-                         technologies={["JavaEE", "Vaadin", "Spring", "GWT", "JPA/Hibernate", "UML"]}
-                         company={Dictionary.get("appello")}
-                         period={Dictionary.get("wdpPeriod")} />
-
-
                 <Project projectName={Dictionary.get("erfProjectName")}
                          role={Dictionary.get("erfRole")}
                          mainResponsibilities={Dictionary.get("erfMainResponsibilities")}
@@ -87,6 +78,14 @@ export default class Projects extends React.Component {
                          technologies={["Project management", "Client communication", "Java", "Spring", "JSP", "JPA/Hibernate", "HTML", "CSS"]}
                          company=""
                          period={Dictionary.get("somPeriod")} />
+
+                <Project projectName={Dictionary.get("wdpProjectName")}
+                         role={Dictionary.get("wdpRole")}
+                         mainResponsibilities={Dictionary.get("wdpMainResponsibilities")}
+                         description={Dictionary.get("wdpDescription")}
+                         technologies={["JavaEE", "Vaadin", "Spring", "GWT", "JPA/Hibernate", "UML"]}
+                         company={Dictionary.get("appello")}
+                         period={Dictionary.get("wdpPeriod")} />
 
             </div>
         );
