@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center; }
+  .heading img {
+    max-width: 200px; }
 
 .progress-bar {
   background-color: #83D8F7; }
