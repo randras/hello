@@ -39,6 +39,22 @@ export default class Projects extends React.Component {
             <div className="projects">
                 <h2>Projects</h2>
 
+                <Project projectName={Dictionary.get("khProjectName")}
+                         role={Dictionary.get("khRole")}
+                         mainResponsibilities={Dictionary.get("khMainResponsibilities")}
+                         description={Dictionary.get("khDescription")}
+                         technologies={["Integration architecture", "Team and task management", "JavaEE", "Spring batch", "JMS", "Performance optimization", "Oracle"]}
+                         company={Dictionary.get("appello")}
+                         period={Dictionary.get("khPeriod")} />
+
+                <Project projectName={Dictionary.get("fundamentaProjectName")}
+                         role={Dictionary.get("fundamentaRole")}
+                         mainResponsibilities={Dictionary.get("fundamentaMainResponsibilities")}
+                         description={Dictionary.get("fundamentaDescription")}
+                         technologies={["Integration architecture", "Team and task management", "JavaEE", "SOAP over JMS", "Apache CXF"]}
+                         company={Dictionary.get("appello")}
+                         period={Dictionary.get("fundamentaPeriod")} />
+
                 <Project projectName={Dictionary.get("ebhProjectName")}
                          role={Dictionary.get("ebhRole")}
                          mainResponsibilities={Dictionary.get("ebhMainResponsibilities")}

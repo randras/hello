@@ -9,7 +9,7 @@ export default class Education extends React.Component {
                 <h2>Education and certificate</h2>
                 <ul>
                     <li>{Dictionary.get("elte")}</li>
-                    <li>Oracle Java Certificated Programmer</li>
+                    <li>Oracle Java Certified Programmer</li>
                 </ul>
             </div>
         );
